@@ -1,0 +1,21 @@
+Package: pof2008package
+Title: POF 2008 (IBGE, Brazil) Data Organized
+Version: 0.1
+Authors@R: 
+    person(given = "Pedro",
+           family = "Rubin",
+           role = c("aut", "cre"),
+           email = "prubincosta@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package aims to provide summary statistics and family-specific data concerning expenditure and income, available at the 2008 Brazilian Household Budget Survey (POF - IBGE).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: TRUE
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10),
+    tidyverse (>= 1.3.1),
+    readxl (>= 1.3.1),
+    glue (>= 1.4.2)
