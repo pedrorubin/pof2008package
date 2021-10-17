@@ -12,7 +12,7 @@ baixar_pof <- function(destination_path){
 
   tempFile <- tempfile()
 
-  download.file(url,tempFile,quiet=TRUE,mode="wb")
+  download.file(url,tempFile,quiet=TRUE,mode="wb",cacheOK = F)
 
   unzip(file.path(tempFile), exdir = destination_path)
 
