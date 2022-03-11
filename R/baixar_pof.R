@@ -8,7 +8,7 @@
 
 baixar_pof <- function(destination_path){
 
-  url <- "https://ftp.ibge.gov.br/Orcamentos_Familiares/Pesquisa_de_Orcamentos_Familiares_2008_2009/Microdados/dados_20210930.zip"
+  url <- "https://ftp.ibge.gov.br/Orcamentos_Familiares/Pesquisa_de_Orcamentos_Familiares_2008_2009/Microdados/Dados_20210930.zip"
 
   tempFile <- tempfile()
 
